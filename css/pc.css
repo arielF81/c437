@@ -1,0 +1,60 @@
+ *{
+font-family: 'Bacasime Antique', serif;
+text-align: center;
+font-weight: 400;
+
+}
+
+h1 {
+    font-size: 2em;
+    
+}
+
+body{    
+    width:100%;
+    overflow-x: hidden;
+    background-color: black;
+  
+ }
+
+
+
+a {
+    text-decoration:none;
+    color:black;  
+}
+
+
+a:hover {
+
+    text-decoration:none;
+    transition-delay: 0.2s;
+    color: white;  
+   
+    
+}
+
+#linkGL {
+    background-color: rgba(110, 211, 250, 0.922);
+   
+    color: black;
+}
+
+#linkGL:hover {
+    background-color: #07547A;
+    color: white;
+}
+
+footer {
+    color: black;
+}
+p {
+    font-size: 1.1em;
+}
+
+#section2 {
+    background-image: url( "/img/fondo.jpg" ) ;
+
+background-repeat: no-repeat;
+background-position: center;
+}
