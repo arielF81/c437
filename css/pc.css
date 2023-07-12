@@ -3,21 +3,26 @@ font-family: 'Bacasime Antique', serif;
 text-align: center;
 font-weight: 400;
 
+
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 2.5em;
+    font-weight: bold;
     
 }
 
 body{    
     width:100%;
     overflow-x: hidden;
-    background-color: black;
-  
- }
+    background: rgb(16,28,47);
+background: linear-gradient(0deg, rgba(16,28,47,1) 24%, rgba(164,212,243,1) 55%);
+}
 
+#parraf1 {
+    font-size: 1.9em;
 
+}
 
 a {
     text-decoration:none;
@@ -29,21 +34,12 @@ a:hover {
 
     text-decoration:none;
     transition-delay: 0.2s;
-    color: white;  
+    color: #1a2239;  
    
     
 }
 
-#linkGL {
-    background-color: rgba(110, 211, 250, 0.922);
-   
-    color: black;
-}
 
-#linkGL:hover {
-    background-color: #07547A;
-    color: white;
-}
 
 footer {
     color: black;
@@ -52,9 +48,23 @@ p {
     font-size: 1.1em;
 }
 
-#section2 {
+
+
+
+main {
     background-image: url( "/img/fondo2.jpg" ) ;
 
 background-repeat: no-repeat;
 background-position: center;
 }
+
+#foot {
+  padding-top: 0px;
+}
+
+#section2 {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+
